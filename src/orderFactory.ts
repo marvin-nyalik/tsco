@@ -108,6 +108,7 @@ let orderS = OrderFactory.createOrder(
 );
 
 console.log(orderS.getOrderId());
+console.log(order.getOrderId());
 console.log(orderS._desc);
 console.log(orderS.price);
 orderS.price = 5.0;
