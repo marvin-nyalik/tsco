@@ -25,7 +25,7 @@ function greet(person: Person) {
   console.log(`Hello, ${person.name}`);
 }
 
-greet(john); // This works cause john implements the shape of Person interface!
+greet(john);
 ```
 
 # Factory Design Pattern
@@ -41,3 +41,6 @@ Using your previous example, here's a breakdown of the components:
 1. Product Interface: Order
 2. Concrete Products: OrderClass, SpecialOrder
 3. Factory Method: createOrder function
+
+# Strategy Design Pattern
+The Strategy Design Pattern is a behavioral design pattern that lets you define a family of algorithms, put each algorithm into its own class, and make them interchangeable. This allows you to select the algorithm or behavior you want at runtime, rather than hardcoding it into your program.
