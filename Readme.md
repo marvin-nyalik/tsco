@@ -44,3 +44,6 @@ Using your previous example, here's a breakdown of the components:
 
 # Strategy Design Pattern
 The Strategy Design Pattern is a behavioral design pattern that lets you define a family of algorithms, put each algorithm into its own class, and make them interchangeable. This allows you to select the algorithm or behavior you want at runtime, rather than hardcoding it into your program.
+
+# Generics
+TypeScript (TS) generics allow you to create components, functions, and classes that work with any data type while still enforcing type safety. By using generics, you can define **reusable functions or components** that work with a variety of types without losing the benefits of TypeScript's static typing.
